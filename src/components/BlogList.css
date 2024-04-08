@@ -1,0 +1,109 @@
+.blog-list-container {
+    width: 100%;
+    margin: 0 auto;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            padding: 10px;
+            margin: 10px;
+            width: 22%;
+        }
+    }
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.blog-content {
+    font-size: 1rem;
+    color: #555;
+}
+/* Style for the individual post container */
+.post-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the post title */
+.post-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for the post content */
+.post-content {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Style for the comments container */
+.comments-container {
+  margin-top: 20px;
+}
+
+/* Style for each comment */
+.comment {
+  margin-top: 10px;
+}
+
+/* Style for the comment author */
+.comment-author {
+  font-weight: bold;
+}
+
+/* Style for the comment content */
+.comment-content {
+  margin-left: 10px;
+  color: #333;
+}
+
+.post-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; /* Ensure the image stays within the container */
+}
+
+.post-image {
+  width: 100%; /* Ensure the image covers the container */
+  height: 70vh; /* Set the height to 70% of the viewport height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.post-content {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
